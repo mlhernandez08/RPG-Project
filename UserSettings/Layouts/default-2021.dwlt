@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 300}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 114
+  controlID: 91
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 83
+  controlID: 113
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 77
+  controlID: 90
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,8 +296,8 @@ MonoBehaviour:
     y: 0
     width: 628
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -443,7 +443,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 90182
+  m_LastSelectedObjectID: -5608
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -500,16 +500,16 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: -1
+  progressMessageClearTime: 5387.9970672
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
-  changeTab: 3
-  activeTab: 3
+  appManagerProgressHasUpdate: 0
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -691,9 +691,9 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 'inital '
     commitMessage: 'initial '
     currentBranch: '[master]'
@@ -704,15 +704,15 @@ MonoBehaviour:
         - 00000000000000001000000000000000
         - 7da2d1ec4b4dd114c8877ad0ecc5c33f
         - 0204a8d082887784e8085b5981804d3a
-        - 11862130be325994fb1a25a3a5b8b428
         - 8876ae9f718310140915c7b4a2975961
-        - 9d1b2309c7349e94d86f8004abad148f
+        - c153a7fbddaa7374fa454fa9af6d8148
         - 6ea315d0fd7389c41b19996891e99ae3
         - 9fc0d4010bbf28b4594072e72b8655ab
         - ca5bbbec3b8552d4b9afdf7264bd06ee
-        - b3f7ba0eecd710841b0cf3c07fd709b3
-        - 2fe1fc5af32c09d419564fb2e9e8e350
-        - 26d55b0a05517c94cbfccad73809bfa8
+        - ec9a4c3c2d121b540868ca98959b5ec4
+        - bec5dfdb1a50f3444846168d11b7e6c3
+        - 6713f1673620d124db84caa12438bc04
+        - 4b8e9adbe09dd6c43b4e7c318a823da3
         values:
         - path: Assets
           label: Assets
@@ -768,29 +768,11 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Game\Characters\Character.prefab
-          label: Character.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Game\Characters\Character.prefab
-            fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab
-            projectPath: Assets\Game\Characters\Character.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
         - path: Assets\Game\Characters\Enemy.prefab
           label: Enemy.prefab
           level: 3
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -804,8 +786,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets\Game\Characters\Player.prefab
-          label: Player.prefab
+        - path: Assets\Game\Characters\Patrol Path.prefab
+          label: Patrol Path.prefab
           level: 3
           isFolder: 0
           isContainer: 1
@@ -816,12 +798,12 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Game\Characters\Player.prefab
-            fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
-            projectPath: Assets\Game\Characters\Player.prefab
+            path: Assets\Game\Characters\Patrol Path.prefab
+            fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Patrol Path.prefab
+            projectPath: Assets\Game\Characters\Patrol Path.prefab
             originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Scenes
           label: Scenes
           level: 1
@@ -876,8 +858,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Combat
-          label: Combat
+        - path: Assets\Scripts\Control
+          label: Control
           level: 2
           isFolder: 1
           isContainer: 0
@@ -894,8 +876,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Combat\Fighter.cs
-          label: Fighter.cs
+        - path: Assets\Scripts\Control\AIController.cs
+          label: AIController.cs
           level: 3
           isFolder: 0
           isContainer: 0
@@ -906,14 +888,14 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scripts\Combat\Fighter.cs
-            fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
-            projectPath: Assets\Scripts\Combat\Fighter.cs
+            path: Assets\Scripts\Control\AIController.cs
+            fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs
+            projectPath: Assets\Scripts\Control\AIController.cs
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets\Scripts\Combat\Health.cs
-          label: Health.cs
+        - path: Assets\Scripts\Control\PatrolPath.cs
+          label: PatrolPath.cs
           level: 3
           isFolder: 0
           isContainer: 1
@@ -924,12 +906,30 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scripts\Combat\Health.cs
-            fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs
-            projectPath: Assets\Scripts\Combat\Health.cs
+            path: Assets\Scripts\Control\PatrolPath.cs
+            fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PatrolPath.cs
+            projectPath: Assets\Scripts\Control\PatrolPath.cs
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
+        - path: Assets\Scripts\Control\PlayerController.cs
+          label: PlayerController.cs
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\Control\PlayerController.cs
+            fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+            projectPath: Assets\Scripts\Control\PlayerController.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
         - Assets
@@ -937,7 +937,9 @@ MonoBehaviour:
         - Assets\Game\Characters
         - Assets\Scenes
         - Assets\Scripts
-        - Assets\Scripts\Combat
+        - Assets\Scripts\Control
+        - UserSettings
+        - UserSettings\Layouts
         values:
         - path: Assets
           label: Assets
@@ -1029,9 +1031,45 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\Combat
-          label: Combat
+        - path: Assets\Scripts\Control
+          label: Control
           level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1129,47 +1167,11 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Game\Characters\Character.prefab
-        label: Character.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Game\Characters\Character.prefab
-          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab
-          projectPath: Assets\Game\Characters\Character.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Game\Characters\Character.prefab.meta
-        label: Character.prefab.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Game\Characters\Character.prefab.meta
-          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab.meta
-          projectPath: Assets\Game\Characters\Character.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets\Game\Characters\Enemy.prefab
         label: Enemy.prefab
         level: 3
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
@@ -1183,26 +1185,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Game\Characters\Enemy.prefab.meta
-        label: Enemy.prefab.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Game\Characters\Enemy.prefab.meta
-          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab.meta
-          projectPath: Assets\Game\Characters\Enemy.prefab.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Game\Characters\Player.prefab
-        label: Player.prefab
+      - path: Assets\Game\Characters\Patrol Path.prefab
+        label: Patrol Path.prefab
         level: 3
         isFolder: 0
         isContainer: 1
@@ -1213,14 +1197,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Game\Characters\Player.prefab
-          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
-          projectPath: Assets\Game\Characters\Player.prefab
+          path: Assets\Game\Characters\Patrol Path.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Patrol Path.prefab
+          projectPath: Assets\Game\Characters\Patrol Path.prefab
           originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Game\Characters\Player.prefab.meta
-        label: Player.prefab.meta
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Game\Characters\Patrol Path.prefab.meta
+        label: Patrol Path.prefab.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -1231,12 +1215,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Game\Characters\Player.prefab.meta
-          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab.meta
-          projectPath: Assets\Game\Characters\Player.prefab.meta
+          path: Assets\Game\Characters\Patrol Path.prefab.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Patrol Path.prefab.meta
+          projectPath: Assets\Game\Characters\Patrol Path.prefab.meta
           originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
+          indexStatus: 1
+          workTreeStatus: 1
       - path: Assets\Scenes
         label: Scenes
         level: 1
@@ -1291,8 +1275,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\Combat
-        label: Combat
+      - path: Assets\Scripts\Control
+        label: Control
         level: 2
         isFolder: 1
         isContainer: 0
@@ -1309,8 +1293,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\Combat\Fighter.cs
-        label: Fighter.cs
+      - path: Assets\Scripts\Control\AIController.cs
+        label: AIController.cs
         level: 3
         isFolder: 0
         isContainer: 0
@@ -1321,14 +1305,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\Combat\Fighter.cs
-          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
-          projectPath: Assets\Scripts\Combat\Fighter.cs
+          path: Assets\Scripts\Control\AIController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs
+          projectPath: Assets\Scripts\Control\AIController.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Scripts\Combat\Health.cs
-        label: Health.cs
+      - path: Assets\Scripts\Control\PatrolPath.cs
+        label: PatrolPath.cs
         level: 3
         isFolder: 0
         isContainer: 1
@@ -1339,14 +1323,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\Combat\Health.cs
-          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs
-          projectPath: Assets\Scripts\Combat\Health.cs
+          path: Assets\Scripts\Control\PatrolPath.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PatrolPath.cs
+          projectPath: Assets\Scripts\Control\PatrolPath.cs
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Scripts\Combat\Health.cs.meta
-        label: Health.cs.meta
+      - path: Assets\Scripts\Control\PatrolPath.cs.meta
+        label: PatrolPath.cs.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -1357,12 +1341,84 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scripts\Combat\Health.cs.meta
-          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs.meta
-          projectPath: Assets\Scripts\Combat\Health.cs.meta
+          path: Assets\Scripts\Control\PatrolPath.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PatrolPath.cs.meta
+          projectPath: Assets\Scripts\Control\PatrolPath.cs.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
+      - path: Assets\Scripts\Control\PlayerController.cs
+        label: PlayerController.cs
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\Control\PlayerController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+          projectPath: Assets\Scripts\Control\PlayerController.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1383,80 +1439,705 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\Game\Characters\Character.prefab
-      fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab
-      projectPath: Assets\Game\Characters\Character.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Game\Characters\Character.prefab.meta
-      fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab.meta
-      projectPath: Assets\Game\Characters\Character.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: Assets\Game\Characters\Enemy.prefab
       fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
       projectPath: Assets\Game\Characters\Enemy.prefab
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Game\Characters\Enemy.prefab.meta
-      fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab.meta
-      projectPath: Assets\Game\Characters\Enemy.prefab.meta
+    - path: Assets\Game\Characters\Patrol Path.prefab
+      fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Patrol Path.prefab
+      projectPath: Assets\Game\Characters\Patrol Path.prefab
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Game\Characters\Player.prefab
-      fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
-      projectPath: Assets\Game\Characters\Player.prefab
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Game\Characters\Patrol Path.prefab.meta
+      fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Patrol Path.prefab.meta
+      projectPath: Assets\Game\Characters\Patrol Path.prefab.meta
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Game\Characters\Player.prefab.meta
-      fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab.meta
-      projectPath: Assets\Game\Characters\Player.prefab.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+      indexStatus: 1
+      workTreeStatus: 1
     - path: Assets\Scenes\Sandbox.unity
       fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
       projectPath: Assets\Scenes\Sandbox.unity
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scripts\Combat\Fighter.cs
-      fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
-      projectPath: Assets\Scripts\Combat\Fighter.cs
+    - path: Assets\Scripts\Control\AIController.cs
+      fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs
+      projectPath: Assets\Scripts\Control\AIController.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scripts\Combat\Health.cs
-      fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs
-      projectPath: Assets\Scripts\Combat\Health.cs
+    - path: Assets\Scripts\Control\PatrolPath.cs
+      fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PatrolPath.cs
+      projectPath: Assets\Scripts\Control\PatrolPath.cs
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Scripts\Combat\Health.cs.meta
-      fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs.meta
-      projectPath: Assets\Scripts\Combat\Health.cs.meta
+    - path: Assets\Scripts\Control\PatrolPath.cs.meta
+      fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PatrolPath.cs.meta
+      projectPath: Assets\Scripts\Control\PatrolPath.cs.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    changedFilesText: 10 changed files
+    - path: Assets\Scripts\Control\PlayerController.cs
+      fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+      projectPath: Assets\Scripts\Control\PlayerController.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2021.dwlt
+      fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+      projectPath: UserSettings\Layouts\default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 9 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-07-06T18:12:23.666-07:00
+      updatedTimeString: 2022-07-08T19:20:10.671-07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-07-06T18:47:55.632-07:00
+      updatedTimeString: 2022-07-08T19:48:42.304-07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-07-06T18:47:12.383-07:00
+      updatedTimeString: 2022-07-08T19:44:01.115-07:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 0
+    currentLogHasUpdate: 1
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: ccb7830f9f3634cacaa0f9537fbb4c5278094b76
+      mergeA: 
+      mergeB: 
+      authorName: mlhernandez08
+      authorEmail: 08mlhernandez@gmail.com
+      commitEmail: 08mlhernandez@gmail.com
+      commitName: mlhernandez08
+      summary: enemy patrol AI start
+      description: 
+      timeString: 2022-07-06T18:48:46.000-07:00
+      commitTimeString: 2022-07-06T18:48:46.000-07:00
+      changes:
+      - path: Assets\Scenes\Sandbox.unity
+        fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+        projectPath: Assets\Scenes\Sandbox.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\CombatTarget.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs
+        projectPath: Assets\Scripts\Combat\CombatTarget.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+        projectPath: Assets\Scripts\Combat\Fighter.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\AIController.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs
+        projectPath: Assets\Scripts\Control\AIController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\PlayerController.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+        projectPath: Assets\Scripts\Control\PlayerController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\ActionScheduler.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\ActionScheduler.cs
+        projectPath: Assets\Scripts\Core\ActionScheduler.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\Health.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\Health.cs
+        projectPath: Assets\Scripts\Core\Health.cs
+        originalPath: Assets\Scripts\Combat\Health.cs
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\Health.cs.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\Health.cs.meta
+        projectPath: Assets\Scripts\Core\Health.cs.meta
+        originalPath: Assets\Scripts\Combat\Health.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scripts\Movement\Mover.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Movement\Mover.cs
+        projectPath: Assets\Scripts\Movement\Mover.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 8b7c70fb86ec4fc681e952910a04444e85ef0792
+      mergeA: 
+      mergeB: 
+      authorName: mlhernandez08
+      authorEmail: 08mlhernandez@gmail.com
+      commitEmail: 08mlhernandez@gmail.com
+      commitName: mlhernandez08
+      summary: Enemy AI Start
+      description: 
+      timeString: 2022-07-05T20:08:14.000-07:00
+      commitTimeString: 2022-07-05T20:08:14.000-07:00
+      changes:
+      - path: Assets\Game\Characters\Character.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab
+        projectPath: Assets\Game\Characters\Character.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Enemy.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+        projectPath: Assets\Game\Characters\Enemy.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Player.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+        projectPath: Assets\Game\Characters\Player.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+        projectPath: Assets\Scripts\Combat\Fighter.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\AIController.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs
+        projectPath: Assets\Scripts\Control\AIController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\AIController.cs.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs.meta
+        projectPath: Assets\Scripts\Control\AIController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\PlayerController.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+        projectPath: Assets\Scripts\Control\PlayerController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 96e34726cc5cef747858650f201108112d2cf41d
+      mergeA: 
+      mergeB: 
+      authorName: mlhernandez08
+      authorEmail: 08mlhernandez@gmail.com
+      commitEmail: 08mlhernandez@gmail.com
+      commitName: mlhernandez08
+      summary: basic combat done
+      description: 
+      timeString: 2022-07-05T19:11:47.000-07:00
+      commitTimeString: 2022-07-05T19:11:47.000-07:00
+      changes:
+      - path: Assets\Asset Packs\Synty - Polygon Student Sample\Materials\PolyAdventureMaterial_Water_01.mat
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Synty - Polygon Student
+          Sample\Materials\PolyAdventureMaterial_Water_01.mat
+        projectPath: Assets\Asset Packs\Synty - Polygon Student Sample\Materials\PolyAdventureMaterial_Water_01.mat
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Character.controller
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.controller
+        projectPath: Assets\Game\Characters\Character.controller
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Enemy.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+        projectPath: Assets\Game\Characters\Enemy.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Player.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+        projectPath: Assets\Game\Characters\Player.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Core\Follow Camera.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Core\Follow Camera.prefab
+        projectPath: Assets\Game\Core\Follow Camera.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Sandbox.unity
+        fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+        projectPath: Assets\Scenes\Sandbox.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\CombatTarget.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs
+        projectPath: Assets\Scripts\Combat\CombatTarget.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+        projectPath: Assets\Scripts\Combat\Fighter.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Health.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs
+        projectPath: Assets\Scripts\Combat\Health.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\PlayerController.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+        projectPath: Assets\Scripts\Control\PlayerController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ac130c5e307cdd71330104126bb61b6014ec2786
+      mergeA: 
+      mergeB: 
+      authorName: mlhernandez08
+      authorEmail: 08mlhernandez@gmail.com
+      commitEmail: 08mlhernandez@gmail.com
+      commitName: mlhernandez08
+      summary: combat updates
+      description: 
+      timeString: 2022-07-05T16:41:53.000-07:00
+      commitTimeString: 2022-07-05T16:41:53.000-07:00
+      changes:
+      - path: Assets\Game\Characters\Character.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab
+        projectPath: Assets\Game\Characters\Character.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Character.prefab.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab.meta
+        projectPath: Assets\Game\Characters\Character.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Enemy.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+        projectPath: Assets\Game\Characters\Enemy.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Enemy.prefab.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab.meta
+        projectPath: Assets\Game\Characters\Enemy.prefab.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Player.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+        projectPath: Assets\Game\Characters\Player.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Player.prefab.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab.meta
+        projectPath: Assets\Game\Characters\Player.prefab.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Sandbox.unity
+        fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+        projectPath: Assets\Scenes\Sandbox.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+        projectPath: Assets\Scripts\Combat\Fighter.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Health.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs
+        projectPath: Assets\Scripts\Combat\Health.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Health.cs.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs.meta
+        projectPath: Assets\Scripts\Combat\Health.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 0fad43987c0a1f338382d6499d463d34ba1e5a02
+      mergeA: 
+      mergeB: 
+      authorName: mlhernandez08
+      authorEmail: 08mlhernandez@gmail.com
+      commitEmail: 08mlhernandez@gmail.com
+      commitName: mlhernandez08
+      summary: attacking update
+      description: 
+      timeString: 2022-07-04T20:02:05.000-07:00
+      commitTimeString: 2022-07-04T20:02:05.000-07:00
+      changes:
+      - path: Assets\Game\Characters\Character.controller
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.controller
+        projectPath: Assets\Game\Characters\Character.controller
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+        projectPath: Assets\Scripts\Combat\Fighter.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 1a6a8312dd6b4f4113cca0d1584697a085554c32
+      mergeA: 
+      mergeB: 
+      authorName: mlhernandez08
+      authorEmail: 08mlhernandez@gmail.com
+      commitEmail: 08mlhernandez@gmail.com
+      commitName: mlhernandez08
+      summary: attacking update
+      description: 
+      timeString: 2022-07-04T18:51:18.000-07:00
+      commitTimeString: 2022-07-04T18:51:18.000-07:00
+      changes:
+      - path: Assets\Asset Packs\Animations by Explosive.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Bow.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Bow.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Bow.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Club.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Club.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Club.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Sword.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Sword.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Sword.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Armed.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Armed.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\Armed.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Item.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Item.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\Item.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\README - Usage Rights for
+          these assets 1.txt
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\README
+          - Usage Rights for these assets 1.txt
+        projectPath: Assets\Asset Packs\Animations by Explosive\README - Usage Rights
+          for these assets 1.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\README - Usage Rights for
+          these assets 1.txt.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\README
+          - Usage Rights for these assets 1.txt.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\README - Usage Rights
+          for these assets 1.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Sword.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Sword.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\Sword.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX
+        projectPath: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX.meta
+        projectPath: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX
+        projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX.meta
+        projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+        projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+        projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Character.controller
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.controller
+        projectPath: Assets\Game\Characters\Character.controller
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scenes\Sandbox.unity
+        fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+        projectPath: Assets\Scenes\Sandbox.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+        projectPath: Assets\Scripts\Combat\Fighter.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\PlayerController.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+        projectPath: Assets\Scripts\Control\PlayerController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\ActionScheduler.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\ActionScheduler.cs
+        projectPath: Assets\Scripts\Core\ActionScheduler.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\ActionScheduler.cs.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\ActionScheduler.cs.meta
+        projectPath: Assets\Scripts\Core\ActionScheduler.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\IAction.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\IAction.cs
+        projectPath: Assets\Scripts\Core\IAction.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\IAction.cs.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\IAction.cs.meta
+        projectPath: Assets\Scripts\Core\IAction.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Movement\Mover.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Movement\Mover.cs
+        projectPath: Assets\Scripts\Movement\Mover.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 290fe78f445d0397543fd611651b7bc9d18c5020
+      mergeA: 
+      mergeB: 
+      authorName: mlhernandez08
+      authorEmail: 08mlhernandez@gmail.com
+      commitEmail: 08mlhernandez@gmail.com
+      commitName: mlhernandez08
+      summary: Combat prototype start
+      description: 
+      timeString: 2022-07-04T15:30:11.000-07:00
+      commitTimeString: 2022-07-04T15:30:11.000-07:00
+      changes:
+      - path: Assets\Game\Characters\Enemy.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+        projectPath: Assets\Game\Characters\Enemy.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Game\Characters\Player.prefab
+        fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+        projectPath: Assets\Game\Characters\Player.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat.meta
+        projectPath: Assets\Scripts\Combat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\CombatTarget.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs
+        projectPath: Assets\Scripts\Combat\CombatTarget.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\CombatTarget.cs.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs.meta
+        projectPath: Assets\Scripts\Combat\CombatTarget.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+        projectPath: Assets\Scripts\Combat\Fighter.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Combat\Fighter.cs.meta
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs.meta
+        projectPath: Assets\Scripts\Combat\Fighter.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control\PlayerController.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+        projectPath: Assets\Scripts\Control\PlayerController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Core\FollowCamera.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\FollowCamera.cs
+        projectPath: Assets\Scripts\Core\FollowCamera.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Movement\Mover.cs
+        fullPath: D:\GameDev\RPG Project\Assets\Scripts\Movement\Mover.cs
+        projectPath: Assets\Scripts\Movement\Mover.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: ee76e9cd06c53e18a590696f9dc8d2d78dd537d8
       mergeA: bce13dd599299e5e4e622fec2e474a81fc2c41db
       mergeB: 36e34407c55d8f1b6dd694e52fc395dbbd4910cb
@@ -3661,14 +4342,645 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2022-07-04T14:26:08.773-07:00
+      updatedTimeString: 2022-07-08T19:50:14.620-07:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2022-07-04T14:26:05.434-07:00
+      updatedTimeString: 2022-07-08T19:48:40.601-07:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: ccb7830f9f3634cacaa0f9537fbb4c5278094b76
+        mergeA: 
+        mergeB: 
+        authorName: mlhernandez08
+        authorEmail: 08mlhernandez@gmail.com
+        commitEmail: 08mlhernandez@gmail.com
+        commitName: mlhernandez08
+        summary: enemy patrol AI start
+        description: 
+        timeString: 2022-07-06T18:48:46.000-07:00
+        commitTimeString: 2022-07-06T18:48:46.000-07:00
+        changes:
+        - path: Assets\Scenes\Sandbox.unity
+          fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+          projectPath: Assets\Scenes\Sandbox.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\CombatTarget.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs
+          projectPath: Assets\Scripts\Combat\CombatTarget.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+          projectPath: Assets\Scripts\Combat\Fighter.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\AIController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs
+          projectPath: Assets\Scripts\Control\AIController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\PlayerController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+          projectPath: Assets\Scripts\Control\PlayerController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\ActionScheduler.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\ActionScheduler.cs
+          projectPath: Assets\Scripts\Core\ActionScheduler.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\Health.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\Health.cs
+          projectPath: Assets\Scripts\Core\Health.cs
+          originalPath: Assets\Scripts\Combat\Health.cs
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\Health.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\Health.cs.meta
+          projectPath: Assets\Scripts\Core\Health.cs.meta
+          originalPath: Assets\Scripts\Combat\Health.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scripts\Movement\Mover.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Movement\Mover.cs
+          projectPath: Assets\Scripts\Movement\Mover.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 8b7c70fb86ec4fc681e952910a04444e85ef0792
+        mergeA: 
+        mergeB: 
+        authorName: mlhernandez08
+        authorEmail: 08mlhernandez@gmail.com
+        commitEmail: 08mlhernandez@gmail.com
+        commitName: mlhernandez08
+        summary: Enemy AI Start
+        description: 
+        timeString: 2022-07-05T20:08:14.000-07:00
+        commitTimeString: 2022-07-05T20:08:14.000-07:00
+        changes:
+        - path: Assets\Game\Characters\Character.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab
+          projectPath: Assets\Game\Characters\Character.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Enemy.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+          projectPath: Assets\Game\Characters\Enemy.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Player.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+          projectPath: Assets\Game\Characters\Player.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+          projectPath: Assets\Scripts\Combat\Fighter.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\AIController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs
+          projectPath: Assets\Scripts\Control\AIController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\AIController.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\AIController.cs.meta
+          projectPath: Assets\Scripts\Control\AIController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\PlayerController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+          projectPath: Assets\Scripts\Control\PlayerController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 96e34726cc5cef747858650f201108112d2cf41d
+        mergeA: 
+        mergeB: 
+        authorName: mlhernandez08
+        authorEmail: 08mlhernandez@gmail.com
+        commitEmail: 08mlhernandez@gmail.com
+        commitName: mlhernandez08
+        summary: basic combat done
+        description: 
+        timeString: 2022-07-05T19:11:47.000-07:00
+        commitTimeString: 2022-07-05T19:11:47.000-07:00
+        changes:
+        - path: Assets\Asset Packs\Synty - Polygon Student Sample\Materials\PolyAdventureMaterial_Water_01.mat
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Synty - Polygon Student
+            Sample\Materials\PolyAdventureMaterial_Water_01.mat
+          projectPath: Assets\Asset Packs\Synty - Polygon Student Sample\Materials\PolyAdventureMaterial_Water_01.mat
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Character.controller
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.controller
+          projectPath: Assets\Game\Characters\Character.controller
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Enemy.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+          projectPath: Assets\Game\Characters\Enemy.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Player.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+          projectPath: Assets\Game\Characters\Player.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Core\Follow Camera.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Core\Follow Camera.prefab
+          projectPath: Assets\Game\Core\Follow Camera.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Sandbox.unity
+          fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+          projectPath: Assets\Scenes\Sandbox.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\CombatTarget.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs
+          projectPath: Assets\Scripts\Combat\CombatTarget.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+          projectPath: Assets\Scripts\Combat\Fighter.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Health.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs
+          projectPath: Assets\Scripts\Combat\Health.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\PlayerController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+          projectPath: Assets\Scripts\Control\PlayerController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ac130c5e307cdd71330104126bb61b6014ec2786
+        mergeA: 
+        mergeB: 
+        authorName: mlhernandez08
+        authorEmail: 08mlhernandez@gmail.com
+        commitEmail: 08mlhernandez@gmail.com
+        commitName: mlhernandez08
+        summary: combat updates
+        description: 
+        timeString: 2022-07-05T16:41:53.000-07:00
+        commitTimeString: 2022-07-05T16:41:53.000-07:00
+        changes:
+        - path: Assets\Game\Characters\Character.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab
+          projectPath: Assets\Game\Characters\Character.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Character.prefab.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.prefab.meta
+          projectPath: Assets\Game\Characters\Character.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Enemy.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+          projectPath: Assets\Game\Characters\Enemy.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Enemy.prefab.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab.meta
+          projectPath: Assets\Game\Characters\Enemy.prefab.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Player.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+          projectPath: Assets\Game\Characters\Player.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Player.prefab.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab.meta
+          projectPath: Assets\Game\Characters\Player.prefab.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Sandbox.unity
+          fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+          projectPath: Assets\Scenes\Sandbox.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+          projectPath: Assets\Scripts\Combat\Fighter.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Health.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs
+          projectPath: Assets\Scripts\Combat\Health.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Health.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Health.cs.meta
+          projectPath: Assets\Scripts\Combat\Health.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 0fad43987c0a1f338382d6499d463d34ba1e5a02
+        mergeA: 
+        mergeB: 
+        authorName: mlhernandez08
+        authorEmail: 08mlhernandez@gmail.com
+        commitEmail: 08mlhernandez@gmail.com
+        commitName: mlhernandez08
+        summary: attacking update
+        description: 
+        timeString: 2022-07-04T20:02:05.000-07:00
+        commitTimeString: 2022-07-04T20:02:05.000-07:00
+        changes:
+        - path: Assets\Game\Characters\Character.controller
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.controller
+          projectPath: Assets\Game\Characters\Character.controller
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+          projectPath: Assets\Scripts\Combat\Fighter.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 1a6a8312dd6b4f4113cca0d1584697a085554c32
+        mergeA: 
+        mergeB: 
+        authorName: mlhernandez08
+        authorEmail: 08mlhernandez@gmail.com
+        commitEmail: 08mlhernandez@gmail.com
+        commitName: mlhernandez08
+        summary: attacking update
+        description: 
+        timeString: 2022-07-04T18:51:18.000-07:00
+        commitTimeString: 2022-07-04T18:51:18.000-07:00
+        changes:
+        - path: Assets\Asset Packs\Animations by Explosive.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Bow.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Bow.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Bow.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Bow\RPG-Character@2Hand-Bow-Attack1.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Club.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Club.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Club.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Club\RPG-Character@2Hand-Club-Attack8.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack2.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Spear\RPG-Character@2Hand-Spear-Attack3.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Sword.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Sword.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Sword.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\2Hand-Sword\RPG-Character@2Hand-Sword-Attack5.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Armed.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Armed.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\Armed.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\Armed\RPG-Character@Armed-Death1.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Item.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Item.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\Item.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\Item\RPG-Character@Item-Attack-L2.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\README - Usage Rights
+            for these assets 1.txt
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\README
+            - Usage Rights for these assets 1.txt
+          projectPath: Assets\Asset Packs\Animations by Explosive\README - Usage
+            Rights for these assets 1.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\README - Usage Rights
+            for these assets 1.txt.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\README
+            - Usage Rights for these assets 1.txt.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\README - Usage
+            Rights for these assets 1.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Sword.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Sword.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\Sword.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX
+          projectPath: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX.meta
+          projectPath: Assets\Asset Packs\Animations by Explosive\Sword\RPG-Character@Sword-Attack-R6.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX
+          projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX.meta
+          projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L2.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+          projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+          projectPath: Assets\Asset Packs\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Character.controller
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Character.controller
+          projectPath: Assets\Game\Characters\Character.controller
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scenes\Sandbox.unity
+          fullPath: D:\GameDev\RPG Project\Assets\Scenes\Sandbox.unity
+          projectPath: Assets\Scenes\Sandbox.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+          projectPath: Assets\Scripts\Combat\Fighter.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\PlayerController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+          projectPath: Assets\Scripts\Control\PlayerController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\ActionScheduler.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\ActionScheduler.cs
+          projectPath: Assets\Scripts\Core\ActionScheduler.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\ActionScheduler.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\ActionScheduler.cs.meta
+          projectPath: Assets\Scripts\Core\ActionScheduler.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\IAction.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\IAction.cs
+          projectPath: Assets\Scripts\Core\IAction.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\IAction.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\IAction.cs.meta
+          projectPath: Assets\Scripts\Core\IAction.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Movement\Mover.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Movement\Mover.cs
+          projectPath: Assets\Scripts\Movement\Mover.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 290fe78f445d0397543fd611651b7bc9d18c5020
+        mergeA: 
+        mergeB: 
+        authorName: mlhernandez08
+        authorEmail: 08mlhernandez@gmail.com
+        commitEmail: 08mlhernandez@gmail.com
+        commitName: mlhernandez08
+        summary: Combat prototype start
+        description: 
+        timeString: 2022-07-04T15:30:11.000-07:00
+        commitTimeString: 2022-07-04T15:30:11.000-07:00
+        changes:
+        - path: Assets\Game\Characters\Enemy.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Enemy.prefab
+          projectPath: Assets\Game\Characters\Enemy.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Game\Characters\Player.prefab
+          fullPath: D:\GameDev\RPG Project\Assets\Game\Characters\Player.prefab
+          projectPath: Assets\Game\Characters\Player.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat.meta
+          projectPath: Assets\Scripts\Combat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\CombatTarget.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs
+          projectPath: Assets\Scripts\Combat\CombatTarget.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\CombatTarget.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\CombatTarget.cs.meta
+          projectPath: Assets\Scripts\Combat\CombatTarget.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs
+          projectPath: Assets\Scripts\Combat\Fighter.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Combat\Fighter.cs.meta
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Combat\Fighter.cs.meta
+          projectPath: Assets\Scripts\Combat\Fighter.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control\PlayerController.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Control\PlayerController.cs
+          projectPath: Assets\Scripts\Control\PlayerController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Core\FollowCamera.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Core\FollowCamera.cs
+          projectPath: Assets\Scripts\Core\FollowCamera.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Movement\Mover.cs
+          fullPath: D:\GameDev\RPG Project\Assets\Scripts\Movement\Mover.cs
+          projectPath: Assets\Scripts\Movement\Mover.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: D:\GameDev\RPG Project\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: ee76e9cd06c53e18a590696f9dc8d2d78dd537d8
         mergeA: bce13dd599299e5e4e622fec2e474a81fc2c41db
         mergeB: 36e34407c55d8f1b6dd694e52fc395dbbd4910cb
@@ -5872,7 +7184,7 @@ MonoBehaviour:
           indexStatus: 4
           workTreeStatus: 0
       statusAhead: 0
-      selectedIndex: 0
+      selectedIndex: 7
     selectedEntry:
       commitID: ee76e9cd06c53e18a590696f9dc8d2d78dd537d8
       mergeA: bce13dd599299e5e4e622fec2e474a81fc2c41db
@@ -6033,10 +7345,10 @@ MonoBehaviour:
     updatedTimeString: 2022-07-04T17:28:17.815-07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-07-05T16:47:34.292-07:00
+    updatedTimeString: 2022-07-08T19:48:40.601-07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-07-05T16:47:34.253-07:00
+    updatedTimeString: 2022-07-08T19:48:46.308-07:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -6119,9 +7431,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a05a0000
-      m_LastClickedID: 23200
-      m_ExpandedIDs: b4f8ffff3afbffff845a0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 18eaffff3afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -6227,21 +7539,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Core
+    - Assets/Game/Characters
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Core
+  - Assets/Game/Characters
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GameDev\RPG Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 18600000
-    m_LastClickedID: 24600
+    m_SelectedIDs: 00600000
+    m_LastClickedID: 24576
     m_ExpandedIDs: 00000000d65f0000d85f0000da5f0000dc5f0000de5f0000e05f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -6297,7 +7609,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 265a0000867f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -6314,7 +7626,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -6643,9 +7955,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.7614825, y: 1.7675931, z: 1.8218169}
+    m_Target: {x: -3.9472415, y: -2.0789614, z: 0.30634975}
     speed: 2
-    m_Value: {x: -3.7614825, y: 1.7675931, z: 1.8218169}
+    m_Value: {x: -3.9472415, y: -2.0789614, z: 0.30634975}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -6692,13 +8004,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.26856104, y: 0.09660489, z: -0.027073495, w: 0.95803607}
+    m_Target: {x: 0.22023082, y: 0.121079415, z: -0.027553163, w: 0.9675235}
     speed: 2
-    m_Value: {x: 0.26855788, y: 0.09660375, z: -0.027073175, w: 0.95802474}
+    m_Value: {x: 0.22022833, y: 0.121078044, z: -0.02755285, w: 0.96751255}
   m_Size:
-    m_Target: 2.9454095
+    m_Target: 7.811019
     speed: 2
-    m_Value: 2.9454095
+    m_Value: 7.811019
   m_Ortho:
     m_Target: 0
     speed: 2
